@@ -1,88 +1,122 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{padding: 0;
-margin: 0;}
-
 .banner1
-{background: url("../images/ash-edmonds-azkczZ4rOgk-unsplash (1).jpg");
-color:aliceblue;
-height: 100vh;
+{background: url(../images/alessio-lin-ZhuKnd5VpV4-unsplash.jpg);
 background-position: center;
 background-size: cover;
-font-size: 72px;
-}
+height: 100vh;
+color: aliceblue;}
 
 .icons
 {font-size: 36px;
-color: aliceblue;}
+color:aliceblue;}
 
 img
 {width: 100%;
-padding-top: 50px;}
+}
 
 .bio
+{font-size: 17px;
+margin: 50px;}
+
+.icons2
+{padding-top:50px;
+background-color:darkgray;}
+
+.mydesigns
 {padding-top: 50px;}
 
+/*a#pills-home-tab  {
+   color: #111;
+    background-color: transparent;
+}*/
+a#pills-home-tab:hover{
+	 color: dimgray;
+    background-color:azure;
+}
+a#pills-profile-tab:hover{
+	 color: dimgray;
+    background-color: azure;
+}
+a#pills-contact-tab:hover{
+	 color: dimgray;
+    background-color: azure;
+}
 
-.skills
+.circle i
+{width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+	    margin-bottom: 15px;}
+form
+{margin-top:50px;}
 
-{background-color:antiquewhite;
-padding-top: 0;
-margin-top: 50px;}
+.ct-form .btn-s
+{
+height:40px;
+width: 200px;
+border-radius: 50px !important;
+background-color: transparent;
+border-color: black;
+border-width: 2px;
+}
 
-.designs
-{margin-top: 50px;}
-
-.icons2 i
-{height: 60px;
-width:60px;
-background: #000000;
-border-radius: 50px;
-color: aliceblue;
-font-size: 16pt;
-padding-top: 20px;
-margin-top:50px;}
+.ct-form .btn-s
+{margin: auto;
+margin-top: 50px;
+display: block;
+}
 
 .contact
-{margin-top: 50px;}
+{margin-top:50px;}
 
-.ct-info
-{margin-top: 50px;}
-
-input
-{width: 350px;}
-
-.ct-info .message
-{margin: auto;
-display: block;
-margin-top: 50px;}
-
-.message
-{width: 200px;
-height: 40px;
-border-radius: 60px;
-background-color: transparent;
-border-color: black;}
-
-footer {
-  margin-top: 100px;
-  text-align: center;
-  padding: 3px;
-  background-color: black;
-  color: white;
-  padding-bottom: 80px;
+.getintouch {
+	-webkit-animation: getintouch 0.6s ease-in-out both ;
+	        animation: getintouch 0.6s ease-in-out both;
+}
+@-webkit-keyframes getintouch {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes getintouch {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
-.icons3
-{margin-top:80px;
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+height:50px;
+	width: 50px;
+	background-color:chocolate;
+	color:black;
+	border:none;
+	border-radius: 50px;
+	color:white;
 }
 
-.icons3 i
-{padding:20px;}
-
-footer p
-{color: gray;}
-
-
-
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
