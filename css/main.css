@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding: 0;
+margin: 0;}
+
+.banner1
+{background: url("../images/ash-edmonds-azkczZ4rOgk-unsplash (1).jpg");
+color:aliceblue;
+height: 100vh;
+background-position: center;
+background-size: cover;
+font-size: 72px;
+}
+
+.icons
+{font-size: 36px;
+color: aliceblue;}
+
+img
+{width: 100%;
+padding-top: 50px;}
+
+.bio
+{padding-top: 50px;}
+
+
+.skills
+
+{background-color:antiquewhite;
+padding-top: 0;
+margin-top: 50px;}
+
+.designs
+{margin-top: 50px;}
+
+.icons2 i
+{height: 60px;
+width:60px;
+background: #000000;
+border-radius: 50px;
+color: aliceblue;
+font-size: 16pt;
+padding-top: 20px;
+margin-top:50px;}
+
+.contact
+{margin-top: 50px;}
+
+.ct-info
+{margin-top: 50px;}
+
+input
+{width: 350px;}
+
+.ct-info .message
+{margin: auto;
+display: block;
+margin-top: 50px;}
+
+.message
+{width: 200px;
+height: 40px;
+border-radius: 60px;
+background-color: transparent;
+border-color: black;}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  padding-bottom: 80px;
+}
+
+.icons3
+{margin-top:80px;
+}
+
+.icons3 i
+{padding:20px;}
+
+footer p
+{color: gray;}
+
+
+
